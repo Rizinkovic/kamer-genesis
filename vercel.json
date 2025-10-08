@@ -7,7 +7,7 @@
     },
     {
       "src": "public/**/*.php",
-      "use": "vercel-community/php@0.5.2"
+      "use": "https://github.com/vercel-community/php"
     },
     {
       "src": "public/**/*",
