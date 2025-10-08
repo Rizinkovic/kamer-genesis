@@ -7,7 +7,7 @@
     },
     {
       "src": "public/**/*.php",
-      "use": "@vercel-community/php"
+      "use": "vercel-community/php@0.5.2"
     },
     {
       "src": "public/**/*",
@@ -17,11 +17,11 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "server/server.js"
+      "dest": "/server/server.js"
     },
     {
       "src": "/(.*)",
-      "dest": "public/$1"
+      "dest": "/public/$1"
     }
   ]
 }
